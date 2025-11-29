@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\extensions\\appextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\extensions\\appextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\extensions\\builderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\extensions\\builderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260D2ED7-313A-498B-B5D3-7E8AFAABD3EE}|FIAP.CloudGames.Usuarios.Service\\FIAP.CloudGames.Usuarios.Service.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.service\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260D2ED7-313A-498B-B5D3-7E8AFAABD3EE}|FIAP.CloudGames.Usuarios.Service\\FIAP.CloudGames.Usuarios.Service.csproj|solutionrelative:fiap.cloudgames.usuarios.service\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\scripts\\script_base.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\scripts\\script_base.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\controllers\\ownedgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\controllers\\ownedgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.api\\fiap.cloudgames.usuarios.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A67453BC-91EF-42A2-B006-5FBCEF649083}|FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.csproj|solutionrelative:fiap.cloudgames.usuarios.api\\fiap.cloudgames.usuarios.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|c:\\users\\infis001061\\documents\\roberto\\p\u00F3s gradua\u00E7\u00E3o\\fiap\\fase 01\\projeto\\fiap.cloudgames\\src\\microservices\\usuarios\\fiap.cloudgames.usuarios.infrastructure\\migrations\\20251119002557_initialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A12378-1D25-4BAC-93BA-BE4952B15BB2}|FIAP.CloudGames.Usuarios.Infrastructure\\FIAP.CloudGames.Usuarios.Infrastructure.csproj|solutionrelative:fiap.cloudgames.usuarios.infrastructure\\migrations\\20251119002557_initialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 525,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Secrets.json",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.Secrets.json",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\appsettings.Secrets.json",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.Secrets.json",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\appsettings.Secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T18:13:07.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "script_base.sql",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Scripts\\script_base.sql",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Scripts\\script_base.sql",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Scripts\\script_base.sql",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Scripts\\script_base.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-21T17:26:23.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:26:15.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Service\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Service\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Service\\Auth\\AuthService.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Service\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:25:14.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.json",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T00:06:38.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:07:54.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppExtension.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Extensions\\AppExtension.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Extensions\\AppExtension.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Extensions\\AppExtension.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Extensions\\AppExtension.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:48:55.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:32:15.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Dockerfile",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Dockerfile",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-19T00:35:19.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:30:14.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Filters\\ValidationFilter.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:12:12.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Extensions\\BuilderExtension.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Extensions\\BuilderExtension.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Extensions\\BuilderExtension.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Extensions\\BuilderExtension.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:14:24.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\appsettings.Development.json",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T01:14:04.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:13:43.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Program.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:06:35.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:14:15.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:24:11.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OwnedGameController.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\OwnedGameController.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\Controllers\\OwnedGameController.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\Controllers\\OwnedGameController.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\Controllers\\OwnedGameController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:14:25.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251119002557_initialUser.cs",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\20251119002557_initialUser.cs",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\20251119002557_initialUser.cs",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\20251119002557_initialUser.cs",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Infrastructure\\Migrations\\20251119002557_initialUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:25:57.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FIAP.CloudGames.Usuarios.Api.http",
+              "DocumentMoniker": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.http",
+              "RelativeDocumentMoniker": "FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.http",
+              "ToolTip": "C:\\Users\\INFIS001061\\Documents\\Roberto\\p\u00F3s gradua\u00E7\u00E3o\\FIAP\\Fase 01\\projeto\\FIAP.CloudGames\\src\\Microservices\\Usuarios\\FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.http",
+              "RelativeToolTip": "FIAP.CloudGames.Usuarios.Api\\FIAP.CloudGames.Usuarios.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-19T00:06:05.675Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 80,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
