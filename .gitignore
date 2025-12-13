@@ -1,3 +1,86 @@
+## Ignore Visual Studio temporary files, build results, and
+## node modules (if any subprojects use node), plus OS files
+
+# Build
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+*.ReSharper*/
+*_ReSharper.*
+*.DotSettings.user
+
+# MSTest test Results
+TestResults/
+*.trx
+
+# NUNIT
+*.VisualState.xml
+*.nunit.xml
+
+# Build Results of an ATL Project
+*.plg
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# OS generated files
+.DS_Store
+
+# Rider
+.idea/
+
+# ASP.NET user secrets (appsettings.Secrets.json) and environment files
+appsettings.Secrets.json
+.env
+
+# Logs
+*.log
+
+# Publish folder
+publish/
+
+# Docker files
+docker-compose*.yml
+
+# dotCover
+*.dotCover
+
+# Coverage files
+coverage*
+
+# JetBrains Rider
+/.idea/
+
+# EF Migrations snapshot (if you prefer to ignore generated snapshots)
+**/Migrations/*Snapshot.cs
 ## Build e Dependências ##
 [Bb]in/
 [Oo]bj/
