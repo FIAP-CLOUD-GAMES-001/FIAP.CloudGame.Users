@@ -1,0 +1,58 @@
+name: Pipeline CD
+
+on:
+  push:
+    branches:
+      - "main"
+      - "feature/deploy-k8s"
+  pull_request:
+    branches:
+      - "main"
+      - "feature/deploy-k8s"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Set image variables
+        run: |
+          echo "DOCKER_IMAGE_TAG=$(date +'%Y-%m%d')-${{ github.run_number }}" >> $GITHUB_ENV
+          echo "DOCKER_REGISTRY=${{ secrets.ACR_URL }}" >> $GITHUB_ENV
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Run tests
+        run: dotnet test --no-build --configuration Release
+
+      - name: Login Azure Container Registry
+        uses: azure/docker-login@v2
+        with:
+          login-server: ${{ secrets.ACR_URL }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_REGISTRY }}/fcg-usuarios-api:${{ env.DOCKER_IMAGE_TAG }} -f ./FIAP.CloudGames.Usuarios.Api/Dockerfile .
+
+      - name: Push Docker image
+        run: docker push ${{ secrets.DOCKER_REGISTRY }}/fcg-usuarios-api:${{ env.DOCKER_IMAGE_TAG }}
+
+      # - name: Generate Kubernetes manifests
+      #   run: |
+      #     envsubst < k8s/deployment.yaml > k8s/deployment-resolved.yaml
+
+      # - name: Deploy to Kubernetes
+      #   run: kubectl apply -f k8s/deployment-resolved.yaml
