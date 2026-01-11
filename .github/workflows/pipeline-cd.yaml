@@ -50,9 +50,10 @@ jobs:
       - name: Push Docker image
         run: docker push ${{ env.DOCKER_REGISTRY }}/fcg-usuarios-api:${{ env.DOCKER_IMAGE_TAG }}
 
-      # - name: Generate Kubernetes manifests
-      #   run: |
-      #     envsubst < k8s/deployment.yaml > k8s/deployment-resolved.yaml
+      - name: Generate Kubernetes manifests
+        run: |
+          envsubst < k8s/deployment.yaml > k8s/deployment-resolved.yaml
+          cat k8s/deployment-resolved.yaml
 
       # - name: Deploy to Kubernetes
       #   run: kubectl apply -f k8s/deployment-resolved.yaml
