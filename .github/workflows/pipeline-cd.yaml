@@ -55,5 +55,11 @@ jobs:
           envsubst < k8s/deployment.yaml > k8s/deployment-resolved.yaml
           cat k8s/deployment-resolved.yaml
 
-      # - name: Deploy to Kubernetes
-      #   run: kubectl apply -f k8s/deployment-resolved.yaml
+      - name: Setup kubeconfig
+        run: |
+          mkdir -p ~/.kube
+          echo "${{ secrets.KUBECONFIG_DATA }}" > ~/.kube/config
+          chmod 600 ~/.kube/config
+
+      - name: Deploy to Kubernetes
+        run: kubectl apply -f k8s/deployment-resolved.yaml

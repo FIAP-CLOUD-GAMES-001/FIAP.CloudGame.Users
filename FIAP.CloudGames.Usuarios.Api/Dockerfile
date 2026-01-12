@@ -36,11 +36,14 @@ RUN apk add --no-cache tzdata \
 
 ENV TZ=America/Sao_Paulo
 
+WORKDIR /app
+COPY --from=build /app/publish .
+
+RUN chown -R $APP_UID /app
+
 EXPOSE 8080
 EXPOSE 8081
 
-WORKDIR /app
-COPY --from=build /app/publish .
 USER $APP_UID
 ENTRYPOINT ["dotnet", "FIAP.CloudGames.Usuarios.Api.dll"]
 
