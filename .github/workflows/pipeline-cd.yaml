@@ -52,8 +52,8 @@ jobs:
 
       - name: Generate Kubernetes manifests
         run: |
-          envsubst < k8s/deployment.yaml > k8s/deployment-resolved.yaml
-          cat k8s/deployment-resolved.yaml
+          envsubst < FIAP.CloudGames.Usuarios.Api/deployment.yaml > FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
+          cat FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
 
       - name: Setup kubeconfig
         run: |
@@ -62,4 +62,4 @@ jobs:
           chmod 600 ~/.kube/config
 
       - name: Deploy to Kubernetes
-        run: kubectl apply -f k8s/deployment-resolved.yaml
+        run: kubectl apply -f FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
