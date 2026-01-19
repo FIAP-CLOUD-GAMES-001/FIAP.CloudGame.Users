@@ -3,6 +3,7 @@ using FIAP.CloudGames.Usuarios.Domain.Entities;
 using FIAP.CloudGames.Usuarios.Domain.Enums;
 using FIAP.CloudGames.Usuarios.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
 namespace FIAP.CloudGames.Usuarios.Api.Extensions;
@@ -24,12 +25,32 @@ public static class AppExtension
 
     private static void UseCustomSwagger(this WebApplication app)
     {
-        app.UseSwagger();
+        var pathBase = app.Configuration["Swagger:PathBase"] ?? string.Empty;
+        
+        app.UseSwagger(c =>
+        {
+            if (!string.IsNullOrEmpty(pathBase))
+            {
+                c.PreSerializeFilters.Add((swagger, httpReq) =>
+                {
+                    swagger.Servers = new List<OpenApiServer>
+                    {
+                        new OpenApiServer { Url = pathBase }
+                    };
+                });
+            }
+        });
 
         app.UseSwaggerUI(c =>
         {
-            c.SwaggerEndpoint("/swagger/v1/swagger.json", "FIAP.CloudGames.Usuarios.Api API v1");
+            var swaggerUrl = string.IsNullOrEmpty(pathBase) 
+                ? "/swagger/v1/swagger.json" 
+                : $"{pathBase.TrimEnd('/')}/swagger/v1/swagger.json";
+            
+            c.SwaggerEndpoint(swaggerUrl, "FIAPCloudGames Users API v1");
+            
             c.RoutePrefix = "swagger";
+            
             c.SupportedSubmitMethods([
                 SubmitMethod.Get,
                 SubmitMethod.Post,
@@ -39,6 +60,7 @@ public static class AppExtension
             ]);
         });
     }
+
     private static void GenerateMigrations(this WebApplication app)
     {
         using var scope = app.Services.CreateScope();
