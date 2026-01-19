@@ -1,47 +1,36 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fcg-usuarios-api
+  name: fcg-users-api
   labels:
-    app: fcg-usuarios-api
+    app: fcg-users-api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fcg-usuarios-api
+      app: fcg-users-api
   template:
     metadata:
       labels:
-        app: fcg-usuarios-api
+        app: fcg-users-api
     spec:
       imagePullSecrets:
-        - name: acr-secret
+        - name: fcg-acr-secret
       containers:
-        - name: fcg-usuarios-api
-          image: ${DOCKER_REGISTRY}/fcg-usuarios-api:${DOCKER_IMAGE_TAG}
+        - name: fcg-users-api
+          image: ${DOCKER_REGISTRY}/fcg-users-api:${DOCKER_IMAGE_TAG}
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
           envFrom:
             - secretRef:
-                name: fcg-usuarios-api-secret
+                name: fcg-users-api-secret
           resources:
             requests:
               cpu: "100m"
               memory: "128Mi"
+              ephemeral-storage: "512Mi"
             limits:
               cpu: "250m"
               memory: "256Mi"
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: fcg-usuarios-api-service
-spec:
-  type: ClusterIP
-  selector:
-    app: fcg-usuarios-api-service
-  ports:
-    - name: http
-      port: 80
-      targetPort: 8080
+              ephemeral-storage: "1Gi"

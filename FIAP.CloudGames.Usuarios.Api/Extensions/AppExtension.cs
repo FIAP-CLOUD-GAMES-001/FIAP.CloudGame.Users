@@ -16,6 +16,7 @@ public static class AppExtension
         app.UseAuthentication();
         app.UseAuthorization();
         app.UseMiddleware<ExceptionHandlingMiddleware>();
+        app.UseMiddleware<ForwardedPrefixMiddleware>();
         app.MapControllers();
         app.GenerateMigrations();
         app.MapHealthChecks("/health");

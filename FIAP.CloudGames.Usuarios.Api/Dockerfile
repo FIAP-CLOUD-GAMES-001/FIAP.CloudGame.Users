@@ -47,7 +47,3 @@ EXPOSE 8081
 
 USER $APP_UID
 ENTRYPOINT ["dotnet", "FIAP.CloudGames.Usuarios.Api.dll"]
-
-
-
-

@@ -41,15 +41,20 @@ jobs:
           password: ${{ secrets.ACR_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t ${{ env.DOCKER_REGISTRY }}/fcg-usuarios-api:${{ env.DOCKER_IMAGE_TAG }} -f ./FIAP.CloudGames.Usuarios.Api/Dockerfile .
+        run: docker build -t ${{ env.DOCKER_REGISTRY }}/fcg-users-api:${{ env.DOCKER_IMAGE_TAG }} -f ./FIAP.CloudGames.Usuarios.Api/Dockerfile .
 
       - name: Push Docker image
-        run: docker push ${{ env.DOCKER_REGISTRY }}/fcg-usuarios-api:${{ env.DOCKER_IMAGE_TAG }}
+        run: docker push ${{ env.DOCKER_REGISTRY }}/fcg-users-api:${{ env.DOCKER_IMAGE_TAG }}
 
       - name: Generate Kubernetes manifests
         run: |
-          envsubst < FIAP.CloudGames.Usuarios.Api/deployment.yaml > FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
-          cat FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
+          mkdir -p kubernetes-resolved
+          for file in infra-as-code/kubernetes/*.yaml; do
+            filename=$(basename "$file")
+            envsubst < "$file" > "kubernetes-resolved/$filename"
+            echo "Generated: kubernetes-resolved/$filename"
+            cat "kubernetes-resolved/$filename"
+          done
 
       - name: Setup kubeconfig
         run: |
@@ -58,4 +63,4 @@ jobs:
           chmod 600 ~/.kube/config
 
       - name: Deploy to Kubernetes
-        run: kubectl apply -f FIAP.CloudGames.Usuarios.Api/deployment-resolved.yaml
+        run: kubectl apply -f kubernetes-resolved/ -n fiap
